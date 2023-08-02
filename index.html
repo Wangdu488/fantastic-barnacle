@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomvu Kuu Muslim School</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Jomvu Kuu Muslim School</h1>
+            <p>
+                Jomvu Kuu Muslim School is the perfect and conducive environment to let your child learn, explore and grow in academics and holistic <br> areas as the cool environment allows for the mind to settle and also for the child to... 
+            </p>
+            <a href="about.html" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Pre Primary</h3>
+                <p>
+                    Our Pre—Primary section is well equipped with learning materials and child friendly environment. Our classes are well ventilated and our child friendly staff offer the best lessons in both formal and Religious education (Madrassa)
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Primary School</h3>
+                <p>
+                    Our primary section boasts of spacious classes and full integration of C.B.C and digital literacy programme.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Coming Soon</h3>
+                <p>
+                    Grade 2 all the way to lower secondary
+                </p>
+                    
+            </div>
+        </div>
+
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/fac1.jpg" >
+                <div class="layer">
+                    <h3>Amazing Classrooms</h3>
+                </div>
+                
+            </div>
+            <div class="facilities-col">
+                <img src="images/play.jpg" >
+                <div class="layer">
+                    <h3>Strong Structures</h3>
+                </div>
+                
+            </div>
+            <div class="facilities-col">
+                <img src="images/ground.jpg" >
+                <div class="layer">
+                    <h3>Play area</h3>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+<!--Testimonials section-->
+
+    <section class="testimonials">
+        <h1>What The Community Says</h1>
+        <p>
+
+        </p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/bibi.jpg" alt="">
+                <div>
+                    <p>
+                        Jomvu Kuu Muslim School has a warm and inclusive atmosphere, creating a welcoming environment for its young learners. <br>
+                        The school's pre-primary program focuses on developing foundational skills through play-based learning, setting a strong educational foundation
+                        <h3>
+                            Madam Bibi
+                        </h3>
+                    </p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/com2.jpg" alt="">
+                <div>
+                    <p>
+                         I'm impressed by the school's dedication to instilling Islamic values and ethics in its students, promoting a sense of spirituality alongside education
+                         <h3>
+                            Ken Kiba - School IT expert
+                         </h3>
+                        
+                    </p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Call to action-->
+    <section class="cta">
+        <h1>
+        What are you waiting for ?<br>Enroll and be one of us Today!
+        </h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+<!--Footer section-->
+
+    <section class="footer">
+        <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+        </div>
+        <p>
+            made with <i class="fa fa-heart-o"></i> by <a href="www.linkedin.com/in/kazungu-kahindi488">Patrick Kazungu</a>
+        </p>
+        <h4>
+        Copyright &copy; 2023
+        </h4>       
+    </section>
+
+    <!--Javasctipt code-->
+
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right=("-200px")
+        }
+    </script>
+</body>
+</html>

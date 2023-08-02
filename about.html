@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Who We are</h1>
+                <p>
+                    Jomvu Kuu Muslim School is the perfect and conducive environment to let your child learn, explore and grow in academics and holistic <br> areas as the cool environment allows for the mind to settle and also for the child to enjoy. <br>
+                    We have highly trained and skilled teachers in both formal education and religious education. <br>
+                    We also pride ourselves in integrating Madrassa Education and Computer studies in our school. <br>
+                    Our institution is full C.B.C integrated and offers digital lessons like YOTO using digital devices like smart TVs and tablets. <br>
+                    Our school has a feeding programme which includes a balanced diet and daily outdoor activities. <br>
+                    We welcome you to come and have a look, We are located just after Jomvu Kuu Hall.
+                </p>
+                <a href="index.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section class="footer">
+        <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+        </div>
+        <p>
+            made with <i class="fa fa-heart-o"></i> by <a href="www.linkedin.com/in/kazungu-kahindi488">Patrick Kazungu</a>
+        </p>
+        <h4>
+        Copyright &copy; 2023
+        </h4>       
+    </section>
+    
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right=("-200px")
+        }
+    </script>
+</body>
+</html>
